@@ -1,0 +1,290 @@
+@font-face {
+  font-family: space;
+  src: url("./fonts/SpaceGrotesk-VariableFont_wght.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: space;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #fff;
+  overflow-x: hidden;
+}
+#section1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5% 60px;
+}
+.part2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+nav h1 {
+  font-size: 30px;
+}
+nav h1 i {
+  font-size: 35px;
+  display: inline-block;
+  rotate: 45deg;
+  margin-right: 10px;
+}
+nav h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+nav button {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  background-color: transparent;
+}
+.center {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  padding: 60px 60px 28px 60px;
+}
+.center-part1 {
+  height: fit-content;
+  width: 45%;
+  height: 100%;
+}
+.center-part1 h1 {
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.center-part1 p {
+  font-size: 18px;
+  width: 95%;
+  margin: 35px 0;
+  line-height: 1.4;
+}
+.center-part1 button {
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px 50px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+.center-part2 {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+}
+.images img{
+    height: 40px;
+}
+#section2 .services{
+    padding: 40px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-top: 2vh;
+}
+.services h2{
+    background-color: #9AE975;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 32px;
+}
+.services p{
+    width: 50%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.container{
+    height: 86%;
+    width: 100%;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.elem{
+    flex-shrink: 0;
+    width: 48%;
+    height: 300px;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: 0px 8px 0px black;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.black{
+    background: #000;
+}
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.elem-part1 h2{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 500;
+    width: 90%;
+    padding: 5px 5px;
+    border-radius: 10px;
+    background-color: #9AE975;
+}
+.elem-part1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+    gap: 10px;
+}
+.elem-part1 h4 i{
+    padding: 3px;
+    background-color: black;
+    color: #9AE975;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 16px;
+}
+.black h2{
+    background-color: white;
+}
+.black h4{
+    color: white;
+}
+.black h4 i{
+    color: black;
+    background-color: white;
+}
+.elem-part2{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elem-part2 img{
+    width: 100%;
+}
+.black .elem-part2 img{
+    width: 70%;
+}
+#proposal{
+    background-color: #f1f1f1;
+    margin: 20px 60px;
+    padding: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-part{
+    width: 35%;
+}
+.left-part h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+.left-part p{
+    font-size: 14px;
+    margin: 20px 0;
+}
+.left-part button{
+    color: white;
+    background-color: black;
+    padding: 12px 18px;
+    font-size: 12px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.right-part{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+
+}
+.right-part img{
+    width: 35%;
+}
+#section3 .case-study{
+    padding: 0px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    margin: 60px 0px;
+}
+.case-study h2{
+    background-color: #9AE975;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 32px;
+}
+.case-study p{
+    width: 50%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.case-details{
+    background: #000;
+    padding: 20px 70px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0px 60px;
+}
+.case-details svg{
+    margin-left: 80px;
+}
+.part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.part p{
+    color: white;
+    font-size: 12px;
+}
+.part h4{
+    color: #9AE975;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+}
+.part h4 i{
+    font-size: 24px;
+}
